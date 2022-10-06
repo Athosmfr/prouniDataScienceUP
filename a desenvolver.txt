@@ -1,0 +1,30 @@
+itens a desenvolver:
+
+começar a apresentar a análise descritiva:
+
+-Comentar sobre a amostra de dados do prouni
+
+-Gerar medidas centrais para valores como:
+
+# Cursos que são mais oferecidos
+# notas de corte x cursos -> analisar as maiores notas de corte
+# Mensalidades(custo) x curso - > analisar os cursos mais caros
+# Universidades x nota parcial
+gerar histogramas para dados acima
+
+- gerar medidas de posição (fractis, percentis, quartis)
+para identificar outliers, demonstra-los com boxplot
+
+-- fazer medidas de dispersão -> usar equação de sturges para gerar bins(tamanho da largura das classes)
+
+-fazer variância das relações
+-desvio padrão
+
+--fazer correlação:
+gráfico de dispersão com scatterplot, análisar se as correlações são lineares, se existe correlação, etc.
+-tentar fazer correlação e Pearson
+
+-covariância:
+ocorre como variância em duas dimensões, selecionar variâncias como nota de corte e cursos com valor da mensalidade e qtde_vagas para cotistas
+
+tentar fazer e identificar a distribuição normal
