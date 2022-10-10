@@ -1,0 +1,20 @@
+Coluna,Tipo,Título,Descrição
+uf_busca,string (max_length=2),UF,Unidade federativa da universidade
+cidade_busca,string (max_length=31),Cidade,Nome da cidade da universidade
+universidade_nome,string (max_length=127),Universidade,Nome da universidade
+campus_nome,string (max_length=319),Nome do Campus,Nome do campus da Universidade
+grau,string (max_length=15),Grau,"Grau do curso (licenciatura, bacharelado ou tecnólogo)"
+turno,string (max_length=31),Turno,"Turno do curso (Integral, matutino, vespertino, noturno ou a distância)"
+mensalidade,"decimal (max_digits=12, decimal_places=2)",Mensalidade,Valor da mensalidade cobrado em reais
+bolsa_integral_cotas,integer,Bolsas Integrais (Cota),quantidade de bolsas integrais de cotas
+bolsa_integral_ampla,integer,Bolsas Integrais (Ampla),quantidade de bolsas integrais amplas
+bolsa_parcial_cotas,integer,Bolsas Parciais (Cota),quantidade de bolsas parciais de cotas
+bolsa_parcial_ampla,integer,Bolsas Parciais (Ampla),quantidade de bolsas parciais amplas
+nota_integral_ampla,"decimal (max_digits=12, decimal_places=2)",Nota Integral (Ampla),Nota de corte integral ampla
+nota_integral_cotas,"decimal (max_digits=12, decimal_places=2)",Nota Integral (Cota),Nota de corte de cotas
+nota_parcial_ampla,"decimal (max_digits=12, decimal_places=2)",Nota Parcial (Ampla),Nota de corte parcial ampla
+nota_parcial_cotas,"decimal (max_digits=12, decimal_places=2)",Nota Parcial (Cota),Nota de corte parcial de cotas
+curso_busca,string (max_length=127),Curso,Nome do curso
+cidade_filtro,string (max_length=31),Código da Cidade,Código de identificação da cidade
+campus_external_id,integer,ID do Campus,Id do campus da universidade
+curso_id,string (max_length=15),ID do Curso,Id do curso
